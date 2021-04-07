@@ -27,6 +27,11 @@
 	    <version>3.0-alpha-1</version>
 	    <scope>compile</scope>
 </dependency>
+<dependency>
+	    <groupId>com.owlike</groupId>
+	    <artifactId>genson</artifactId>
+	    <version>1.4</version>	    
+</dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -35,7 +40,9 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>14</release>
+        <source>1.8</source>
+        <target>1.8</target>
+          
         </configuration>
       </plugin>
       <plugin>
